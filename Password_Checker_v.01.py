@@ -2,7 +2,7 @@
 
 import time
 
-print('Password must be atleast 8 letters.')
+print('Password must be at least 8 letters.')
 
 # Password Entering And Loop
 
@@ -13,7 +13,7 @@ while True:
 
 
     if len(password) < 8:
-        print('Password must be atleast 8 characters!')
+        print('Password must be at least 8 characters!')
         continue
     elif len(password) > 8 or len(password) == 8:
         break

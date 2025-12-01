@@ -1,25 +1,30 @@
-# Start
+# Modules
+
 
 import time
 
-print('Password must be at least 8 letters.')
 
-# Password Entering And Loop
+# Start
+
+
+print('Password must be at least 8 characters.')
+
+
+# Password entering and length control
+
 
 while True:
     password = input('Password: ')
 
-# Password 8 Characters Long Control
-
-
+    # Check if password is at least 8 characters long
     if len(password) < 8:
         print('Password must be at least 8 characters!')
         continue
-    elif len(password) > 8 or len(password) == 8:
+    else:
         break
-        condition_1 = False
 
-# Re-Entering Password
+
+# Re-entering password for verification
 
 
 while True:
@@ -27,15 +32,12 @@ while True:
     password_check = input('Password: ')
 
     if password_check != password:
-       print('Incorrect password please try again.')
-
-       continue
-
-
-    elif password_check == password:
+        print('Incorrect password, please try again.')
+        continue
+    else:
         print('Correct password.')
-        condition_2 = False
         break
+
 
 
 

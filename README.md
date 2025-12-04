@@ -1,26 +1,14 @@
-# Password Checker 
+#Password Checker
 
-A simple Python script that checks if a password meets the minimum length requirement and verifies it by asking the user to re-enter the same password.
+A Python script that checks whether a password meets defined security rules and verifies it through a second input. The program gives clear feedback on incorrect attempts and only accepts a valid, confirmed password.
 
-## Features
+#Features
+	•	Minimum length control
+	•	Validation rules (number, special character, etc.)
+	•	Password re-enter check
+	•	Limited attempt system
+	•	Uses only Python’s standard library
 
-- Ensures the password is **at least 8 characters long**
-- Asks the user to **re-enter the password** for confirmation
-- Repeats until:
-  - A valid-length password is entered
-  - The re-entered password matches the original one
-
-## Requirements
-
-- Python 3.x
-
-No external libraries are required.
-
-## How to Run
-
-1. Clone or download this repository.
-2. Open a terminal in the project folder.
-3. Run the script:
-
-```bash
-python Password_Checker_v0.1.py
+#How To Run
+python Password_Checker_vXX.py
+(Replace XX with your version number.)

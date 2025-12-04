@@ -1,4 +1,4 @@
-# Password Checker v0.1
+# Password Checker 
 
 A simple Python script that checks if a password meets the minimum length requirement and verifies it by asking the user to re-enter the same password.
 
@@ -23,4 +23,4 @@ No external libraries are required.
 3. Run the script:
 
 ```bash
-python Password_Checker_v0.2.py
+python Password_Checker_v0.1.py

@@ -7,4 +7,4 @@ Features
 	•	Validation rules (number, special character, etc.)
 	•	Password re-enter check
 	•	Limited attempt system
-	•	Uses only Python’s standard library
+	
